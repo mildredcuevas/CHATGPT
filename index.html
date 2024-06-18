@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Neumáticos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="banner">
+            <img src="banner.jpg" alt="Banner de Neumáticos">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#products">Productos</a></li>
+                <li><a href="#about">Nosotros</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Breadcrumbs -->
+    <div class="breadcrumbs">
+        <a href="#home">Inicio</a> > <a href="#products">Productos</a>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <section class="cta">
+            <h1>Encuentra los mejores neumáticos</h1>
+            <button>Comprar Ahora</button>
+        </section>
+
+        <!-- Slider -->
+        <div class="slider">
+            <img src="neumatico1.jpg" alt="Neumático 1">
+            <img src="neumatico2.jpg" alt="Neumático 2">
+            <img src="neumatico3.jpg" alt="Neumático 3">
+        </div>
+
+        <!-- Sidebar -->
+        <aside>
+            <div class="search-bar">
+                <input type="text" placeholder="Buscar...">
+                <button>Buscar</button>
+            </div>
+            <div class="ads">
+                <img src="ad1.jpg" alt="Publicidad 1">
+                <img src="ad2.jpg" alt="Publicidad 2">
+            </div>
+        </aside>
+
+        <!-- Products Section -->
+        <section id="products">
+            <h2>Productos</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="neumatico1.jpg" alt="Neumático 1">
+                    <h3>Neumático 1</h3>
+                    <p>Descripción del neumático 1.</p>
+                    <button>Comprar</button>
+                </div>
+                <div class="product-item">
+                    <img src="neumatico2.jpg" alt="Neumático 2">
+                    <h3>Neumático 2</h3>
+                    <p>Descripción del neumático 2.</p>
+                    <button>Comprar</button>
+                </div>
+                <!-- Más productos aquí -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Venta de Neumáticos. Todos los derechos reservados.</p>
+        <div class="contact-form">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
